@@ -1,0 +1,1 @@
+LibA.Lib.a()

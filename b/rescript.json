@@ -1,0 +1,14 @@
+{
+  "name": "b",
+  "namespace": "AppB",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [{ "module": "es6", "in-source": true }],
+  "suffix": ".res.mjs",
+  "bs-dependencies": ["@rescript/core", "a"],
+  "bsc-flags": ["-open RescriptCore"]
+}
